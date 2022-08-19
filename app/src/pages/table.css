@@ -1,0 +1,45 @@
+
+button {
+  align-items: 'center';
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  background-color: #7c6bc7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: beige;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+input {
+  padding:10px;
+  margin:10px 10px; 
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+  table{
+    color: rgb(207, 79, 207);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+   }
+
+
+   table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+
