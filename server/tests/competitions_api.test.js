@@ -96,7 +96,7 @@ test('NATJECANJA se vraćaju kao JSON', async () => {
     .expect(200)
     .expect('Content-Type', /application\/json/)
 
-    const jsonPoruka = JSON.parse(JSON.stringify(trazeniEvent))
+    const jsonPoruka = JSON.parse(JSON.stringify(trazeniEvent.ime_natjecanja))
 
     expect(odgovor.body).toEqual(jsonPoruka)
    })

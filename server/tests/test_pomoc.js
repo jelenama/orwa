@@ -63,7 +63,7 @@ let pocetniScores = [
 
 
 
-
+ 
 
    module.exports = {
     pocetniScores, scoresIzBaze,nepostojeciId
